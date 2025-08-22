@@ -61,16 +61,18 @@ The project is organized into the following main components:
 ### Running the Application
 
 1.  **Start the server:**
-    Open a new terminal and navigate to the `server` directory:
+    Open a new terminal and navigate to the `terminal-chat` directory:
     ```bash
     
-    ./chat-server
+    ./chat-server # for Linux/Macos
+    ./chat-server.exe # for Windows
     ```
     The server will start listening for connections, typically on port `8080` (or as configured).
 
 2.  **Start clients:**
-    Open one or more new terminals for each client. Navigate to the `client` directory:
+    Open one or more new terminals for each client. Navigate to the `terminal-chat` directory:
     ```bash
     
-    ./chat-client
+    ./chat-client # for Linux/Macos
+    ./chat-client.exe # for Windows
     ```
